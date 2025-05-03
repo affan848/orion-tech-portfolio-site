@@ -6,14 +6,14 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Wrench, Circuit, Truck } from "lucide-react";
+import { Wrench, Cpu, Truck } from "lucide-react";
 
 export function Products() {
   const productCategories = [
     {
       title: "Automation Tools",
       description: "Cutting-edge automation solutions for industrial efficiency and precision",
-      icon: Circuit,
+      icon: Cpu,
       items: [
         "PLCs and related components",
         "Sensors and control systems",
@@ -36,7 +36,7 @@ export function Products() {
     {
       title: "Electrical Components",
       description: "Reliable electrical parts for every industrial application",
-      icon: Circuit,
+      icon: Cpu,
       items: [
         "Relays, contactors, and overloads",
         "E.O.C.R. measuring instruments",
